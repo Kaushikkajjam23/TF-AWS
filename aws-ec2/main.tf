@@ -17,5 +17,4 @@ resource "aws_instance" "myserver" {
     tags = {
         Name = "MyServer"
     }
-
 }
