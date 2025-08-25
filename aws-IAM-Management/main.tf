@@ -69,3 +69,4 @@ resource "aws_iam_user_policy_attachment" "main" {
   # Optional: Explicit dependency (though the reference above should be sufficient)
   depends_on = [aws_iam_user.main]
 }
+
